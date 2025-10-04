@@ -1,5 +1,6 @@
 predict: "predict.py:Predictor"
 build:
+  gpu: true
   python_version: "3.10"
   python_packages:
     - cog
@@ -10,4 +11,3 @@ build:
     - scipy
     - matplotlib
     - deepgaze-pytorch @ git+https://github.com/matthias-k/DeepGaze.git
-gpu: true
