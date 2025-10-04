@@ -3,10 +3,11 @@ build:
   python_version: "3.10"
   python_packages:
     - cog
-    - torch>=1.12
+    - torch>=2.0.0
     - torchvision
     - pillow
     - numpy
-    - scikit-image
+    - scipy
     - matplotlib
+    - deepgaze-pytorch @ git+https://github.com/matthias-k/DeepGaze.git
 gpu: true
